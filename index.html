@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babun - DataScientist portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .icon {
+            padding: 5px;
+        }
+
+        .container {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .bar1,
+        .bar2,
+        .bar3 {
+            width: 35px;
+            height: 5px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+
+        .change .bar1 {
+            transform: translate(0, 11px) rotate(-45deg);
+        }
+
+        .change .bar2 {
+            opacity: 0;
+        }
+
+        .change .bar3 {
+            transform: translate(0, -11px) rotate(45deg);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="images/profile.jpg" alt="logo">
+                <div class="lefttext"><i>Babun</i></div>
+            </div>
+            <div id="myLinks" class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Works">Works</a></li>
+                    <li><a href="#Contact">Contacts</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <div class="container" onclick="closefunc(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </a>
+        </nav>
+        <main>
+            <section class="FirstSection">
+                <div class="leftSection">
+                    <h5>Hi,</h5>
+                    <div>
+                        <h5><b>My name is <span class="blue">Babun</span></b></h5>
+                    </div>
+                    <div>
+                        <h3><b><span class="yellow">A Software Engineer </span></b></h3>
+                    </div>
+                    <div class="moreabout">
+                        An individual with a keen interest in Software programs, possessing good interpersonal and
+                        analytical skills...
+                    </div>
+                    <div class="button">
+                        <button class="Check">Check My CV</button>
+                        <button class="Contacts">Contact Me</button>
+                    </div>
+                </div>
+
+                <div class="rightSection">
+                    <img src="Images/profilecrop.jpg" alt="image">
+                    <!-- <img src="Images/bg02.png" alt="image">
+                </div> -->
+
+            </section>
+
+
+            <section id="about" class="AboutSection">
+                <div class="About">
+                    <h1 class="Aboutheading"><u>About Me</u></h1>
+                    <p class="aboutmepara">My name is Babun Roy, A full stack developer. Now I'm pursuing my Masters Of
+                        Computer Application from Megnad Saha Institute of Technolodgy. I am skilled in MERN stack,
+                        HTML, CSS, javascript, SQL and have good knowledge of Java and Python. An individual with a keen
+                        interest in Software programs, possessing good interpersonal and analytical skills...</p>
+                </div>
+            </section>
+
+
+
+            <section id="skills" class="SkillsSection">
+                <div class="SkillsLeftSection">
+                    <h1 class="skillheading">Skills</h1>
+                    <img src="" alt="">
+                </div>
+                <div class="Skillspara">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt eius, soluta consectetur
+                        similique nulla, consequatur adipisci voluptatum laboriosam quod nobis quasi accusantium
+                        mollitia unde, neque dicta beatae? Est, nisi.</p>
+                </div>
+
+            </section>
+
+
+
+            <section id="Works" class="worksSection">
+                <div class="worksLeftSection">
+                    <h1 class="worksheading">Skills</h1>
+                    <img src="" alt="">
+                </div>
+                <div class="works">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt eius, soluta consectetur
+                        similique nulla, consequatur adipisci voluptatum laboriosam quod nobis quasi accusantium
+                        mollitia unde, neque dicta beatae? Est, nisi.</p>
+                </div>
+
+            </section>
+
+
+
+            <section id="Contact" class="Contact">
+                <div class="wrapper centered">
+                    <article class="letter">
+                        <div class="side">
+                            <h1 class="c">Contact Me</h1>
+                            <p>
+                                <textarea placeholder="Your message"></textarea>
+                            </p>
+                        </div>
+                        <div class="side">
+                            <p>
+                                <input type="text" placeholder="Your name">
+                            </p>
+                            <p>
+                                <input type="email" placeholder="Your email">
+                            </p>
+                            <p>
+                                <button id="sendLetter">Send</button>
+                            </p>
+                        </div>
+                    </article>
+                    <div class="envelope front"></div>
+                    <div class="envelope back"></div>
+                </div>
+                <p class="result-message centered">Thank you for your message</p>
+
+            </section>
+
+
+
+        </main>
+
+    </header>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+
+        function closefunc(x) {
+            x.classList.toggle("change");
+        }
+
+        function addClass() {
+            document.body.classList.add("sent");
+        }
+
+        sendLetter.addEventListener("click", addClass);
+    </script>
+</body>
+
+</html>

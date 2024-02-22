@@ -16,7 +16,9 @@ nav {
     align-items: center;
     color: rgb(150, 150, 150);
     height: 60px;
-    background-color:rgb(22, 22, 22);
+    /* background-color:rgb(22, 22, 22); */
+    background-image: linear-gradient(to right, black , #383838);
+    box-shadow: 0px 0px 5px rgb(58, 58, 58);
     font-family: Arial;
     font-size: 1.3rem;
     position: fixed;
@@ -32,7 +34,7 @@ nav .lefttext{
     margin-left: 5px;
     margin-top: 18px;
     font-family:  'Arial';
-    color: #8d8d8d;
+    color: #ffffff;
     
 }
 
@@ -57,7 +59,7 @@ nav ul li {
 nav ul li a:link, a:visited{
   display: inline-block;
   text-decoration: none;
-  color: rgb(177, 177, 177);  
+  color: rgb(255, 255, 255);  
 }
 
 
@@ -78,7 +80,7 @@ nav .right{
   }
 
 nav .line{
-    background-color: #fff;
+    background-color: #ffffff;
     margin: 4px 10px;
     height: 1px;
     width: 15px;
@@ -109,7 +111,7 @@ nav .line{
 }
 .leftSection{
     font-size: 3.5rem;
-    color: rgb(163, 163, 163);
+    color: rgb(255, 255, 255);
     font-weight: 900;
     width: 40%;
     /* margin-left: 200px; */
@@ -188,33 +190,35 @@ nav .line{
   color: wheat;
   width: 50%;
   margin: auto;
-  display: grid;
-  justify-content: center;
 }
 .skillheading{
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 4rem;
-  margin-top: 240px;
-  margin-bottom: 120px;
-}
-.Skillspara{
   display: flex;
   justify-content: center;
+  margin-top: 240px;
+  margin-bottom: 140px;
+}
+.Skillspara{
+  /* display: flex;
+  justify-content: center; */
 }
 .skillList{
   display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: rgb(150, 150, 150);
-    height: 160px;
-    font-family: Arial;
-    font-size: 1.3rem;
-}
-.skillList li{
-  color: rgb(106, 172, 62);
+  justify-content: space-around;
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
 }
 .skillList img{
-  color: red;
+  /* display: flex;
+  justify-content: space-around;
+  align-content: center; */
+  width: 120px;
+}
+.skillList div{
+  /* color: rgb(106, 172, 62);
+  margin: 25px; */
 }
 
 

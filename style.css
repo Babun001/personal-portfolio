@@ -33,6 +33,7 @@ nav .lefttext{
     margin-top: 18px;
     font-family:  'Arial';
     color: #8d8d8d;
+    
 }
 
 nav img{
@@ -53,13 +54,19 @@ nav ul li {
     cursor:pointer;
     
 }
-
-nav ul li:hover {
-    color: rgb(219, 219, 219);
-    font-size: 1.1rem;
-    transition-duration: 0.1s;
-    
+nav ul li a:link, a:visited{
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(177, 177, 177);  
 }
+
+
+nav ul li a:hover, a:active {
+    color: rgb(255, 255, 255);
+    transition-duration: 0.1s; 
+}
+
+
 
 nav .right{
     width: 50%;
@@ -125,10 +132,7 @@ nav .line{
 .yellow{
     color: #ffffff;
 }
-hr{
-    margin: 0px 0px;
-    border: 1px solid rgb(145, 145, 145);
-}
+
 .moreabout{
     font-size: 20px;
     font-weight: 200;
@@ -150,6 +154,10 @@ hr{
     transition-duration: 0.1s;
 }
 
+
+.AboutSection{
+  display: flex;
+}
 .About{
     width: 50%;
     margin: auto;
@@ -158,8 +166,8 @@ hr{
     color: #ffffff;
     display: flex;
     justify-content: center;
-    margin-top: 335px;
-    margin-bottom: 135px;
+    margin-top: 250px;
+    margin-bottom: 100px;
     font-size: 4rem;
 }
 .aboutmepara{
@@ -193,6 +201,11 @@ hr{
 }
 
 
+
+.Contact .centered{
+  margin-top: 250px;
+  margin-bottom: 300px;
+}
 .Contact{
     display: flex;
     color: red;

@@ -182,22 +182,19 @@ nav .line{
 
 
 .SkillsSection{
-    width: 50%;
-    margin: auto;
+
+}
+.SkillsFullSection{
+
 }
 .skillheading{
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    margin-top: 335px;
-    margin-bottom: 135px;
-    font-size: 4rem;
+
 }
 .Skillspara{
-    color: rgb(145, 145, 145);
-    font-size: 1.8rem;
-    text-align: justify;
-    margin-bottom:300px ;
+
+}
+.skillList{
+  
 }
 
 

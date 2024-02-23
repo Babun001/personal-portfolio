@@ -200,6 +200,12 @@ nav .line{
   margin-top: 240px;
   margin-bottom: 140px;
 }
+.firstInterface{
+  color: #aaa;
+  margin-left: 72%;
+  font-size: 4rem;
+  margin-bottom: 10%;
+}
 .Skillspara{
   /* display: flex;
   justify-content: center; */
@@ -220,8 +226,8 @@ nav .line{
   display: flex;
   text-align:start;
   padding: 125px 120px;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: flex-end;
+  justify-content: center;
 }
 .workclass .firstInterface{
   color: rgb(255, 255, 255);
@@ -241,8 +247,10 @@ nav .line{
 
 
 
-
-
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
 .Contact .centered{
   margin-top: 250px;
   margin-bottom: 300px;

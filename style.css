@@ -216,27 +216,29 @@ nav .line{
 
 
 .worksSection{
-  display: flex;
+  /* display: block;
   justify-content: center;
   text-align: center;
-  margin: auto;
+  margin: 100px 10px; */
 }
 .worksSection .workclass{
-  margin: 160px auto;
+  /* margin: 160px auto; */
 }
 .workclass h1{
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255);
   font-size: 4rem;
-  margin: 30px auto;
+  margin: 30px auto; */
 }
 .workclass h2{
-  color: #aaa;
-  margin: 10px;
+  /* color: #aaa;
+  margin: 10px; */
 }
 .workclass p{
-  color: #696969;
+  /* color: #696969; */
 }
-
+.workclass .second{
+  /* background-color: red; */
+}
 
 
 

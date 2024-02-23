@@ -64,7 +64,7 @@ nav ul li a:link, a:visited{
 
 
 nav ul li a:hover, a:active {
-    color: rgb(255, 255, 255);
+    color: rgb(139, 139, 139);
     transition-duration: 0.1s; 
 }
 
@@ -148,10 +148,10 @@ nav .line{
     font-size: 1rem;
     margin: 5px 0px;
     cursor: pointer;
-    background-color:#0893b8;
+    background-color:#00addd;
 }
 .button button:hover{
-    background-color: #007da0;
+    background-color: #00c8ff;
     color: rgb(0, 0, 0);
     transition-duration: 0.1s;
 }
@@ -211,15 +211,27 @@ nav .line{
   align-items: center;
 }
 .skillList img{
-  /* display: flex;
-  justify-content: space-around;
-  align-content: center; */
   width: 120px;
 }
-.skillList div{
-  /* color: rgb(106, 172, 62);
-  margin: 25px; */
+
+
+.worksSection{
+
 }
+.worksSection .workclass{
+  background-color: red;
+}
+.workclass h1{
+  color: yellow;
+}
+.workclass h2{
+  color: red;
+}
+.workclass p{
+  color: pink;
+}
+
+
 
 
 

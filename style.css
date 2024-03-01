@@ -197,10 +197,10 @@ nav .line{
   display: flex;
   justify-content: center;
   margin-top: 200px;
-  margin-bottom: 110px;
+  margin-bottom: 150px;
 }
 .firstInterface{
-  color: #aaa;
+  color: #fff;
   margin-left: 72%;
   font-size: 4rem;
   margin-bottom: 10%;
@@ -210,10 +210,10 @@ nav .line{
   justify-content: space-around;
   margin-bottom: 10px;
   text-align: center;
-  align-items: center;
+  align-items: end;
 }
 .skillList img{
-  width: 110px;
+  width: 50px;
 }
 
 
@@ -225,7 +225,7 @@ nav .line{
   justify-content: center;
 }
 .workclass .firstInterface{
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 4rem;
   margin: 30px auto;
 }
@@ -235,9 +235,6 @@ nav .line{
 }
 .workclass p{
   color: #696969;
-}
-.worksSection img{
-  
 }
 
 
